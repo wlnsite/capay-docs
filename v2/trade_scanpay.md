@@ -13,6 +13,7 @@
     | transaction_scene | string | R | [交易模式](enums?id=payscene) |
     | transaction_openid | string | C | 交易用户的OpenId |
     | notify_url | string | O | 付款成功的通知地址 |
+    | scenetag | string | O | 活动参与参数 |
     | client_ip | string | O | 交易终端的用户IP地址 |
     | client_geohash | string | O | 交易终端用户地理位置坐标定位进行`Geohash`编码 |
     | attach_data | string | O | 终端附属参数，将在异步通知中原样返回，最大长度为1024 |
