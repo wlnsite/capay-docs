@@ -6,7 +6,7 @@
 	* [枚举类型定义](enums.md)
 * [统一支付接口](v2/README.md)
 	* [支付下单](v2/trade_create.md)
-	* [扫码支付](v2/trade_scanpay.md)
+	* [扫码支付](v2/trade_micropay.md)
 	* [支付状态查询](v2/trade_query.md)
 	* [发起退款](v2/trade_refund.md)
 	* [退款状态查询](v2/trade_refund_query.md)

@@ -9,10 +9,7 @@
     | amount | int | R | 交易金额，单位：`分` |
     | description | string | R | 交易描述，如：住宿费 |
     | out_trade_no | string | R | 商户交易流水号，应在商户侧为唯一值 |
-    | time_expire | unix | O | 交易有效期，Unix时间戳（精确到秒）,最大值为当前时间24小时内 |
-    | transaction_scene | string | R | [交易模式](enums?id=payscene) |
-    | transaction_openid | string | C | 交易用户的OpenId |
-    | notify_url | string | O | 付款成功的通知地址 |
+    | auth_code | string | R | 付款用户出示的付款吗 |
     | scenetag | string | O | 活动参与参数 |
     | client_ip | string | O | 交易终端的用户IP地址 |
     | client_geohash | string | O | 交易终端用户地理位置坐标定位进行`Geohash`编码 |
